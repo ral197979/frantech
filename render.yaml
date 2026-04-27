@@ -28,10 +28,10 @@ services:
   - type: redis
     name: frantech-redis
     ipAllowList: []
-    plan: free
+    plan: standard
 
 databases:
   - name: frantech
     databaseName: frantech
     user: frantech
-    plan: free
+    plan: standard
