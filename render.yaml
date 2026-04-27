@@ -28,10 +28,8 @@ services:
   - type: redis
     name: frantech-redis
     ipAllowList: []
-    plan: starter
 
 databases:
   - name: frantech
     databaseName: frantech
     user: frantech
-    plan: starter
